@@ -11,7 +11,7 @@ export default function Login() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:5000/login", {
+      await axios.post("https://netflix-login-website-cwfs.onrender.com", {
 
         email,
         password,
@@ -122,3 +122,4 @@ export default function Login() {
     </div>
   );
 }
+
